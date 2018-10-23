@@ -1,7 +1,7 @@
 function dwarfRollCall(dwarves) {
   var rollcall = ""
   for (var i = 0; i< dwarves.length; i++){
-    rollcall += (i+1 + ". " + dwarves[i] + " ")
+    rollcall += i+1 + ". " + dwarves[i] + " "
 }
 return rollcall;
 }
